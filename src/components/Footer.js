@@ -2,10 +2,10 @@ import React from "react";
 
 const styles = {
   footerStyle: {
-    background: "#0077B6",
+    background: "#CAF0F8",
   },
   headingStyle: {
-    fontSize: "100px",
+    fontSize: "30px",
   },
 };
 
