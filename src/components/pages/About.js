@@ -8,6 +8,8 @@ const styles = {
     display: "block",
     marginLeft: "auto",
     marginRight: "auto",
+    height: '250px',
+    width: '250px',
   },
   text: {
     textAlign: "center",
@@ -19,7 +21,7 @@ export default function About() {
     <div className="about">
       <h1 style={styles.heading}>About Me</h1>
       <img
-        src="../../assets/pfp.jpg"
+        src={require("../../assets/pfp.jpg")}
         alt="profile pic"
         style={styles.image}
       />
