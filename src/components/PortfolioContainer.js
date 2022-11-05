@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Header from "./Header";
+// import Header from "./Header";
 import NavTabs from "./NavTabs";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 export default function PortfolioContainer() {
   // Set default page to "About Me"
@@ -28,10 +28,10 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

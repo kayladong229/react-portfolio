@@ -3,6 +3,8 @@ import PortfolioContainer from "./components/PortfolioContainer";
 // import logo from './logo.svg';
 // import './App.css';
 
-const App = () => <PortfolioContainer />
+function App () {
+  <PortfolioContainer />
+};
 
 export default App;
