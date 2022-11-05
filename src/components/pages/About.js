@@ -1,16 +1,39 @@
-import React from 'react';
+import React from "react";
+
+const styles = {
+  heading: {
+    textAlign: "center",
+  },
+  image: {
+    display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
+  },
+  text: {
+    textAlign: "center",
+  },
+};
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+    <div className="about">
+      <h1 style={styles.heading}>About Me</h1>
+      <img
+        src="../../assets/pfp.jpg"
+        alt="profile pic"
+        style={styles.image}
+      />
+      <p style={styles.text}>
+        I am an aspiring full stack web designer and developer who is currently
+        working on acquiring a certificate in full stack web development from
+        the UC Berkeley Coding Bootcamp. In this bootcamp, I learned how to
+        utilize languages such as JavaScript, MySQL, and React.js to create a
+        polished and intuitive user experience on the Internet. I'm also comfortable with both working alone and working as part of a team to create and finish new projects.
+      </p>
+      <p style={styles.text}>
+        When I'm not coding or taking care of other responsibilities, I'm
+        either playing a video game, listening to music, or looking up new
+        restaurants to try in my area.
       </p>
     </div>
   );
