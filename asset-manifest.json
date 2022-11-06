@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.561dc29f.css",
-    "main.js": "/react-portfolio/static/js/main.4cf51aa8.js",
+    "main.js": "/react-portfolio/static/js/main.c4d6dc52.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Weather Dashboard demo.gif": "/react-portfolio/static/media/Weather Dashboard demo.4fdf6f15fe2e0fe11829.gif",
     "static/media/primary-keys-rentals.png": "/react-portfolio/static/media/primary-keys-rentals.1ccbf34ea1a3634ca539.png",
@@ -9,14 +9,15 @@
     "static/media/timed-quiz.png": "/react-portfolio/static/media/timed-quiz.81b172f44d03d6b3452e.png",
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.a230bf049c11ba8173e6.png",
     "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.e05ed042dc8f68f5de98.png",
+    "static/media/Kayla Dong Web Dev Resume.pdf": "/react-portfolio/static/media/Kayla Dong Web Dev Resume.9fe7f817a0ed0e97e8e7.pdf",
     "static/media/pfp.jpg": "/react-portfolio/static/media/pfp.a561db0f32eea8dfe2c0.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.561dc29f.css.map": "/react-portfolio/static/css/main.561dc29f.css.map",
-    "main.4cf51aa8.js.map": "/react-portfolio/static/js/main.4cf51aa8.js.map",
+    "main.c4d6dc52.js.map": "/react-portfolio/static/js/main.c4d6dc52.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.561dc29f.css",
-    "static/js/main.4cf51aa8.js"
+    "static/js/main.c4d6dc52.js"
   ]
 }
