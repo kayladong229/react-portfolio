@@ -3,6 +3,8 @@ import React from "react";
 const styles = {
   body: {
     backgroundColor: "#90E0EF",
+    paddingTop: '100px',
+    paddingBottom: '100px',
   },
   heading: {
     textAlign: "center",

@@ -12,3 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  height: 42px;
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    flex-direction: column;
+    overflow: visible;
+    align-items: center;
+    height: 90px;
+  }
+
+  .nav {
+    background-color: #CAF0F8;
+  }
+}
