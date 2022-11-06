@@ -4,7 +4,8 @@ import { validateEmail } from "../../utils/helpers";
 const styles = {
   body: {
     backgroundColor: "#90E0EF",
-    height: "400px",
+    paddingTop: '150px',
+    paddingBottom: '150px',
   },
   heading: {
     textAlign: "center",
