@@ -1,6 +1,9 @@
 import React from "react";
 
 const styles = {
+  body: {
+    backgroundColor: "#90E0EF"
+  },
   heading: {
     textAlign: "center",
   },
@@ -8,8 +11,8 @@ const styles = {
     display: "block",
     marginLeft: "auto",
     marginRight: "auto",
-    height: '250px',
-    width: '250px',
+    height: "250px",
+    width: "250px",
   },
   text: {
     textAlign: "center",
@@ -18,7 +21,7 @@ const styles = {
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" style={styles.body}>
       <h1 style={styles.heading}>About Me</h1>
       <img
         src={require("../../assets/pfp.jpg")}
@@ -30,12 +33,14 @@ export default function About() {
         working on acquiring a certificate in full stack web development from
         the UC Berkeley Coding Bootcamp. In this bootcamp, I learned how to
         utilize languages such as JavaScript, MySQL, and React.js to create a
-        polished and intuitive user experience on the Internet. I'm also comfortable with both working alone and working as part of a team to create and finish new projects.
+        polished and intuitive user experience on the Internet. I'm also
+        comfortable with both working alone and working as part of a team to
+        create and finish new projects.
       </p>
       <p style={styles.text}>
-        When I'm not coding or taking care of other responsibilities, I'm
-        either playing a video game, listening to music, or looking up new
-        restaurants to try in my area.
+        When I'm not coding or taking care of other responsibilities, I'm either
+        playing a video game, listening to music, or looking up new restaurants
+        to try in my area.
       </p>
     </div>
   );

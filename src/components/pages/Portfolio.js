@@ -2,6 +2,9 @@ import React from "react";
 import Project from "../Project";
 
 const styles = {
+  body: {
+    backgroundColor: "#90E0EF"
+  },
   heading: {
     textAlign: "center",
   },
@@ -66,7 +69,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div>
+    <div style={styles.body}>
       <h1 style={styles.heading}>Portfolio</h1>
       <Project projects={projects} />
     </div>

@@ -1,21 +1,61 @@
-import React from 'react';
+import React from "react";
+
+const styles = {
+  body: {
+    backgroundColor: "#90E0EF",
+  },
+  heading: {
+    textAlign: "center",
+  },
+  text: {
+    textAlign: "center",
+  },
+  proficiencies: {
+    marginLeft: "20px",
+    display: "table",
+    margin: "0 auto",
+  },
+};
 
 export default function Resume() {
   return (
-    <div>
-      <h1>My Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+    <div style={styles.body}>
+      <h1 style={styles.heading}>My Resume</h1>
+      <p style={styles.text}>
+        Click{" "}
+        <a
+          href={require("../../assets/Kayla Dong Web Dev Resume.pdf")}
+          download
+        >
+          here
+        </a>{" "}
+        to download the latest version of my resume.
       </p>
+      <h2 style={styles.proficiencies}>
+        <u>Proficiencies</u>
+      </h2>
+      <br />
+      <h3 style={styles.proficiencies}>Front End:</h3>
+      <ul style={styles.proficiencies}>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Bulma</li>
+        <li>Responsive Design</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+      </ul>
+      <br />
+      <h3 style={styles.proficiencies}>Back End:</h3>
+      <ul style={styles.proficiencies}>
+        <li>APIs</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MySQL, NoSQL, Sequelize</li>
+        <li>MongoDB, Mongoose</li>
+        <li>GraphQL</li>
+      </ul>
     </div>
   );
 }
