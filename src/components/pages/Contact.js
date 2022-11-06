@@ -1,22 +1,130 @@
-import React from 'react';
+import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
+
+const styles = {
+  body: {
+    backgroundColor: "#90E0EF",
+    height: "400px",
+  },
+  heading: {
+    textAlign: "center",
+  },
+  form: {
+    marginLeft: "20px",
+  },
+};
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "name") {
+      setName(inputValue);
+    } else if (inputType === "email") {
+      setEmail(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleBlank = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === 'name' || inputType === 'email' || inputType === 'message') {
+      if (!inputValue.length) {
+        setErrorMessage(`Please fill in the ${inputType} field.`);
+      } else {
+        setErrorMessage('');
+      }
+  }
+}
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email address.");
+      return;
+    } else if (!name) {
+      setErrorMessage('Please enter your name.');
+      return;
+    } else if (!message) {
+      setErrorMessage('Please enter a message.');
+      return;
+    }
+
+    alert("Thank you for your message!");
+
+    setName("");
+    setEmail("");
+    setMessage("");
+    setErrorMessage("");
+  };
+
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div style={styles.body}>
+      <h1 style={styles.heading}>Contact Me</h1>
+      <form className="row g-3" style={styles.form}>
+        <div className="form-group col-md-5">
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            value={name}
+            className="form-control required"
+            name="name"
+            onChange={handleInputChange}
+            onBlur={handleBlank}
+            placeholder="First name"
+          />
+        </div>
+        <div className="form-group col-md-5">
+          <label htmlFor="email">Email address:</label>
+          <input
+            type="email"
+            value={email}
+            className="form-control required"
+            name="email"
+            onChange={handleInputChange}
+            onBlur={handleBlank}
+            placeholder="name@example.com"
+          />
+        </div>
+        <div className="form-group col-md-10">
+          <label htmlFor="message">Enter your message here:</label>
+          <textarea
+            type="text"
+            value={message}
+            className="form-control required"
+            name="message"
+            rows="3"
+            onChange={handleInputChange}
+            onBlur={handleBlank}
+          ></textarea>
+        </div>
+        <div className="col-12">
+          <button
+            className="btn btn-primary"
+            type="submit"
+            onClick={handleFormSubmit}
+          >
+            Submit
+          </button>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+        </div>
+      </form>
     </div>
   );
 }
