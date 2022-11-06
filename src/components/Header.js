@@ -6,10 +6,11 @@ const styles = {
     background: "#CAF0F8",
     display: 'flex',
     justifyContent: 'space-between',
-    height: '42px'
+    height: '42px',
   },
   headingStyle: {
     fontSize: "30",
+    marginLeft: '10px'
   },
 };
 

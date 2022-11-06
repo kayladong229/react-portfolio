@@ -10,7 +10,9 @@ const styles = {
     textAlign: "center",
   },
   form: {
-    marginLeft: "20px",
+    textAlign: "left",
+    flex: 'display',
+    justifyContent: 'center'
   },
 };
 
@@ -110,7 +112,7 @@ export default function Contact() {
             onBlur={handleBlank}
           ></textarea>
         </div>
-        <div className="col-12">
+        <div className="form-group text-center">
           <button
             className="btn btn-primary"
             type="submit"
