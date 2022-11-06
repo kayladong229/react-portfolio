@@ -10,9 +10,9 @@ const styles = {
     textAlign: "center",
   },
   icons: {
-    display:'flex',
-    justifyContent: 'space-evenly',
-  }
+    display: "flex",
+    justifyContent: "space-evenly",
+  },
 };
 
 function Footer() {

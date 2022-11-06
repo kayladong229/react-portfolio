@@ -3,7 +3,7 @@ import Project from "../Project";
 
 const styles = {
   body: {
-    backgroundColor: "#90E0EF"
+    backgroundColor: "#90E0EF",
   },
   heading: {
     textAlign: "center",
@@ -62,7 +62,7 @@ const projects = [
     image: require("../../assets/primary-keys-rentals.png"),
     link: "https://primary-keys-rentals.herokuapp.com/",
     description:
-    "A rental car website with user accounts. Created with three other developers.",
+      "A rental car website with user accounts. Created with three other developers.",
     githubRepo: "https://github.com/TottoMoe/PrimaryKeysRentals",
   },
 ];

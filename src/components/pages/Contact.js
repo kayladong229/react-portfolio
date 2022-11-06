@@ -11,8 +11,8 @@ const styles = {
   },
   form: {
     textAlign: "left",
-    flex: 'display',
-    justifyContent: 'center'
+    flex: "display",
+    justifyContent: "center",
   },
 };
 
@@ -41,14 +41,18 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === 'name' || inputType === 'email' || inputType === 'message') {
+    if (
+      inputType === "name" ||
+      inputType === "email" ||
+      inputType === "message"
+    ) {
       if (!inputValue.length) {
         setErrorMessage(`Please fill in the ${inputType} field.`);
       } else {
-        setErrorMessage('');
+        setErrorMessage("");
       }
-  }
-}
+    }
+  };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -57,10 +61,10 @@ export default function Contact() {
       setErrorMessage("Please enter a valid email address.");
       return;
     } else if (!name) {
-      setErrorMessage('Please enter your name.');
+      setErrorMessage("Please enter your name.");
       return;
     } else if (!message) {
-      setErrorMessage('Please enter a message.');
+      setErrorMessage("Please enter a message.");
       return;
     }
 
