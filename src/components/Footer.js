@@ -20,13 +20,13 @@ function Footer() {
     <header style={styles.footerStyle} className="footer">
       <h1 style={styles.headingStyle}>Check out my other sites:</h1>
       <div className="icon-container" style={styles.icons}>
-        <a href="https://github.com/kayladong229">
+        <a href="https://github.com/kayladong229" target="_blank" rel="noopener noreferrer">
           <FaGithub size={42} />
         </a>
-        <a href="https://www.linkedin.com/in/kayla-d-1a64a5b8/">
+        <a href="https://www.linkedin.com/in/kayla-d-1a64a5b8/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={42} />
         </a>
-        <a href="https://stackoverflow.com/users/19170067/kd922">
+        <a href="https://stackoverflow.com/users/19170067/kd922" target="_blank" rel="noopener noreferrer">
           <FaStackOverflow size={42} />
         </a>
       </div>
