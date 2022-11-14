@@ -26,7 +26,7 @@ export default function Resume() {
       <p style={styles.text}>
         Click{" "}
         <a
-          href={require("../../assets/Kayla Dong Web Dev Resume.pdf")}
+          href={require("../../assets/Kayla Dong Web Development _ Full Stack Resume.pdf")}
           download
         >
           here
