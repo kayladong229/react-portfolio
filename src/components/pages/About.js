@@ -36,8 +36,8 @@ export default function About() {
         learned how to utilize languages such as JavaScript, MySQL, and React.js
         to create a polished and intuitive user experience on the Internet. I'm
         also comfortable with both working alone and working as part of a team
-        to apply problem-solving skills and attention to detail to create and
-        finish new projects.
+        to create new projects and am capable of applying problem-solving skills
+        and attention to detail to develop and finish them.
       </p>
       <p style={styles.text}>
         When I'm not coding or taking care of other responsibilities, I'm either
