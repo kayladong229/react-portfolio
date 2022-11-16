@@ -20,6 +20,7 @@ const projects = [
     link: "https://kayladong229.github.io/timed-coding-quiz/",
     description:
       "A 30-second quiz that tests users on the basics of JavaScript.",
+    skills: "HTML, CSS, JavaScript",
     githubRepo: "https://github.com/kayladong229/timed-coding-quiz",
   },
   {
@@ -29,6 +30,7 @@ const projects = [
     link: "https://kayladong229.github.io/weather-dashboard/",
     description:
       "A simple weather app that uses a third-party API (OpenWeather) to return the current weather along with a five-day forecast of a searched city.",
+    skills: "HTML, CSS, JavaScript, Third-Party APIs",
     githubRepo: "https://github.com/kayladong229/weather-dashboard",
   },
   {
@@ -38,6 +40,7 @@ const projects = [
     link: "https://young-earth-73455.herokuapp.com/",
     description:
       "A basic blog that was created using the MVC model and deployed to Heroku.",
+    skills: "MVC/Handlebars, Express, MySQL, Sequelize, Heroku",
     githubRepo: "https://github.com/kayladong229/tech-blog",
   },
   {
@@ -47,6 +50,7 @@ const projects = [
     link: "https://secret-gorge-40545.herokuapp.com/",
     description:
       "A simple Progressive Web Application (PWA) that can be downloaded as a separate application from the browser and used offline.",
+    skills: "PWA, IndexedDB",
     githubRepo: "https://github.com/kayladong229/text-editor",
   },
   {
@@ -56,6 +60,7 @@ const projects = [
     link: "https://hunterbrennan1.github.io/TODO-Team-Name-repo/",
     description:
       "A simplified search engine for trees. Created with three other developers.",
+    skills: "HTML, JavaScript, Bulma, Wikipedia API, Pexels API",
     githubRepo: "https://github.com/HunterBrennan1/TODO-Team-Name-repo",
   },
   {
@@ -65,6 +70,7 @@ const projects = [
     link: "https://primary-keys-rentals.herokuapp.com/",
     description:
       "A rental car website with user accounts. Created with three other developers.",
+    skills: "HTML, Bootstrap, Express, Node, MySQL, Sequelize, MVC/Handlebars",
     githubRepo: "https://github.com/TottoMoe/PrimaryKeysRentals",
   },
 ];

@@ -30,6 +30,7 @@ function Project(props) {
                   <a href={project.link}>{project.name}</a>
                 </h5>
                 <p className="card-text">{project.description}</p>
+                <p className="card-text">Featured skills: {project.skills}</p>
                 <a href={project.githubRepo}>Github Repo</a>
               </div>
             </div>

@@ -3,8 +3,8 @@ import React from "react";
 const styles = {
   body: {
     backgroundColor: "#90E0EF",
-    paddingTop: '100px',
-    paddingBottom: '100px',
+    paddingTop: "100px",
+    paddingBottom: "100px",
   },
   heading: {
     textAlign: "center",
@@ -31,13 +31,13 @@ export default function About() {
         style={styles.image}
       />
       <p style={styles.text}>
-        I am an aspiring full stack web designer and developer who is currently
-        working on acquiring a certificate in full stack web development from
-        the UC Berkeley Coding Bootcamp. In this bootcamp, I learned how to
-        utilize languages such as JavaScript, MySQL, and React.js to create a
-        polished and intuitive user experience on the Internet. I'm also
-        comfortable with both working alone and working as part of a team to
-        create and finish new projects.
+        I am a web developer who earned a certificate in full stack web
+        development from the UC Berkeley Coding Bootcamp. In this bootcamp, I
+        learned how to utilize languages such as JavaScript, MySQL, and React.js
+        to create a polished and intuitive user experience on the Internet. I'm
+        also comfortable with both working alone and working as part of a team
+        to apply problem-solving skills and attention to detail to create and
+        finish new projects.
       </p>
       <p style={styles.text}>
         When I'm not coding or taking care of other responsibilities, I'm either
