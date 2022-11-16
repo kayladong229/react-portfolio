@@ -44,6 +44,9 @@ export default function About() {
         playing a video game, listening to music, or looking up new restaurants
         to try in my area.
       </p>
+      <p style={styles.text}>
+        If you are interested in working with me, you can email me at kayladong.dev[at]gmail.com.
+      </p>
     </div>
   );
 }
