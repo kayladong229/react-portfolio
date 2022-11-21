@@ -45,7 +45,7 @@ export default function About() {
         to try in my area.
       </p>
       <p style={styles.text}>
-        If you are interested in working with me, you can email me at kayladong.dev[at]gmail.com.
+        Please email any business inquiries to <a href="mailto:kayladong.dev@gmail.com">kayladong.dev@gmail.com</a>.
       </p>
     </div>
   );
