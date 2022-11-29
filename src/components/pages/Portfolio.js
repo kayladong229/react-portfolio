@@ -73,6 +73,16 @@ const projects = [
     skills: "HTML, Bootstrap, Express, Node, MySQL, Sequelize, MVC/Handlebars",
     githubRepo: "https://github.com/TottoMoe/PrimaryKeysRentals",
   },
+  {
+    id: 7,
+    name: "Purrfect Pet (Group Project)",
+    image: require("../../assets/purrfect-pet.png"),
+    link: "https://purrfect-pet-app.herokuapp.com/",
+    description:
+      "An app that matches the right pet with the right owner. Created with four other developers.",
+    skills: "GraphQL, Apollo, React, MongoDB/Mongoose ODM, Heroku, JWT, PWA",
+    githubRepo: "https://github.com/kayladong229/purrfect-pet",
+  },
 ];
 
 export default function Portfolio() {
