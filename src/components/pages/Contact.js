@@ -1,5 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { validateEmail } from "../../utils/helpers";
+import emailjs from 'emailjs-com';
+// import Swal from 'sweetalert2';
+
+const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 
 const styles = {
   body: {
@@ -22,6 +28,7 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const form = useRef();
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -69,6 +76,11 @@ export default function Contact() {
       return;
     }
 
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID)
+    .then((result) => {
+      console.log(result.text);
+    });
+
     alert("Thank you for your message!");
 
     setName("");
@@ -80,7 +92,7 @@ export default function Contact() {
   return (
     <div style={styles.body}>
       <h1 style={styles.heading}>Contact Me</h1>
-      <form className="row g-3" style={styles.form}>
+      <form className="row g-3" style={styles.form} ref={form}>
         <div className="form-group col-md-5">
           <label htmlFor="name">Name:</label>
           <input
