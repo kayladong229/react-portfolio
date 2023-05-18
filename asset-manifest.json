@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6cbc62a2.css",
-    "main.js": "/react-portfolio/static/js/main.88306bc4.js",
+    "main.js": "/react-portfolio/static/js/main.05939921.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Weather Dashboard demo.gif": "/react-portfolio/static/media/Weather Dashboard demo.4fdf6f15fe2e0fe11829.gif",
     "static/media/primary-keys-rentals.png": "/react-portfolio/static/media/primary-keys-rentals.1ccbf34ea1a3634ca539.png",
     "static/media/wiki-tree.jpeg": "/react-portfolio/static/media/wiki-tree.64cf7e441e75b8f637f3.jpeg",
     "static/media/timed-quiz.png": "/react-portfolio/static/media/timed-quiz.81b172f44d03d6b3452e.png",
     "static/media/purrfect-pet.png": "/react-portfolio/static/media/purrfect-pet.6f471697f4f15938b026.png",
-    "static/media/Kayla Dong Resume 2023.pdf": "/react-portfolio/static/media/Kayla Dong Resume 2023.72d68420d51cc69d3cdb.pdf",
+    "static/media/Kayla Dong Resume 2023.pdf": "/react-portfolio/static/media/Kayla Dong Resume 2023.50914b1d50c9b3737772.pdf",
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.a230bf049c11ba8173e6.png",
     "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.e05ed042dc8f68f5de98.png",
     "static/media/pfp.jpg": "/react-portfolio/static/media/pfp.a561db0f32eea8dfe2c0.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.6cbc62a2.css.map": "/react-portfolio/static/css/main.6cbc62a2.css.map",
-    "main.88306bc4.js.map": "/react-portfolio/static/js/main.88306bc4.js.map",
+    "main.05939921.js.map": "/react-portfolio/static/js/main.05939921.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cbc62a2.css",
-    "static/js/main.88306bc4.js"
+    "static/js/main.05939921.js"
   ]
 }
