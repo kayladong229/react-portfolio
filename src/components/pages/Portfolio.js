@@ -89,7 +89,7 @@ const projects = [
     image: require("../../assets/Screen Shot 2023-07-23 at 3.09.47 PM.png"),
     link: "https://kayladong229.github.io/san-francisco-html-email/",
     description:
-      "A sample email template built entirely using HTML",
+      "A sample email template built entirely using HTML.",
     skills: "HTML",
     githubRepo: "https://github.com/kayladong229/san-francisco-html-email",
   },
