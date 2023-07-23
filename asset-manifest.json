@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6cbc62a2.css",
-    "main.js": "/react-portfolio/static/js/main.1905bef9.js",
+    "main.js": "/react-portfolio/static/js/main.787e21c4.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Weather Dashboard demo.gif": "/react-portfolio/static/media/Weather Dashboard demo.4fdf6f15fe2e0fe11829.gif",
+    "static/media/Screen Shot 2023-07-23 at 3.09.47 PM.png": "/react-portfolio/static/media/Screen Shot 2023-07-23 at 3.09.47 PM.ecb5df8e049ef39bfc61.png",
     "static/media/primary-keys-rentals.png": "/react-portfolio/static/media/primary-keys-rentals.1ccbf34ea1a3634ca539.png",
     "static/media/wiki-tree.jpeg": "/react-portfolio/static/media/wiki-tree.64cf7e441e75b8f637f3.jpeg",
     "static/media/timed-quiz.png": "/react-portfolio/static/media/timed-quiz.81b172f44d03d6b3452e.png",
@@ -14,11 +15,11 @@
     "static/media/pfp.jpg": "/react-portfolio/static/media/pfp.a561db0f32eea8dfe2c0.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.6cbc62a2.css.map": "/react-portfolio/static/css/main.6cbc62a2.css.map",
-    "main.1905bef9.js.map": "/react-portfolio/static/js/main.1905bef9.js.map",
+    "main.787e21c4.js.map": "/react-portfolio/static/js/main.787e21c4.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cbc62a2.css",
-    "static/js/main.1905bef9.js"
+    "static/js/main.787e21c4.js"
   ]
 }
