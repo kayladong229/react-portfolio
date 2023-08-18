@@ -47,6 +47,9 @@ export default function Resume() {
         <li>Responsive Design</li>
         <li>React</li>
         <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>Next.js</li>
+        <li>TypeScript</li>
       </ul>
       <br />
       <h3 style={styles.proficiencies}>Back End:</h3>
