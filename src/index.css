@@ -29,3 +29,24 @@ code {
     background-color: #CAF0F8;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .header {
+    flex-direction: column;
+    overflow: visible;
+    align-items: center;
+    height: 70px;
+  }
+
+  .nav {
+    background-color: #CAF0F8;
+  }
+
+  .nav-item {
+    font-size: 0.915rem;
+  }
+
+  .about {
+    margin-top: -20px;
+  }
+}

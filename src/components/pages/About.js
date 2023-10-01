@@ -3,8 +3,8 @@ import React from "react";
 const styles = {
   body: {
     backgroundColor: "#90E0EF",
-    paddingTop: "100px",
-    paddingBottom: "100px",
+    paddingTop: "80px",
+    paddingBottom: "80px",
   },
   heading: {
     textAlign: "center",
@@ -13,6 +13,7 @@ const styles = {
     display: "block",
     marginLeft: "auto",
     marginRight: "auto",
+    marginBottom: '20px',
     height: "250px",
     width: "250px",
   },
