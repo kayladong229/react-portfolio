@@ -10,8 +10,8 @@ const USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 const styles = {
   body: {
     backgroundColor: "#90E0EF",
-    paddingTop: '150px',
-    paddingBottom: '150px',
+    paddingTop: '100px',
+    paddingBottom: '100px',
   },
   heading: {
     textAlign: "center",
